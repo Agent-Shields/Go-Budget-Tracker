@@ -21,7 +21,7 @@ request.onsuccess = function(event) {
 
     // check if app online, if yes run uploadData() function to send all local db data to api
     if (navigator.onLine) {
-        // uploadData()
+        uploadData()
     }
 };
 

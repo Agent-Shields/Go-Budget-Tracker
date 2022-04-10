@@ -1,15 +1,25 @@
-// contain following properties | Mod 19 : Lesson 5, web manifests refresher
-
-// name
-
-// short_name
-
-//icons
-
-// theme_color
-
-//background_color
-
-// start_url
-
-// display
+{
+    "name": "Go-Budget-Tracker",
+    "short_name": "GoBudget",
+    "icons": [
+        {
+            "src": "/public/icons/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/icons/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/icons/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        }
+    ],
+    "theme_color":"#317EFB",
+    "background_color": "#dddddd",
+    "start_url": "/public/index.html",
+    "display": "standalone"
+}
