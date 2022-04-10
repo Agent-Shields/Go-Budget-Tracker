@@ -75,7 +75,7 @@ function uploadData() {
                     // clear all items in store
                     budgetObjectStore.clear();
 
-                    console.log('All saved budgets have been submitted')
+                    alert('All saved budgets have been submitted')
                 })
                 .catch(err => {
                     console.log(err)
