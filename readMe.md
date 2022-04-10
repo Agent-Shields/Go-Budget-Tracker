@@ -7,7 +7,7 @@ The goal of this challenge is to add offline functionality using indexedDB to th
 https://github.com/Agent-Shields/Go-Budget-Tracker
 
 ## Deployed Application
-<!-- Heroku link will go here -->
+https://shields-go-budget-tracker.herokuapp.com/
 
 ## Acceptance Criteria
 Given a budget tracker without an internet connection
